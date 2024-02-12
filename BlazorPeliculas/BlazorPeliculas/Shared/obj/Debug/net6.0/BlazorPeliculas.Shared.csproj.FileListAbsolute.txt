@@ -10,3 +10,15 @@ E:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\
 E:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\refint\BlazorPeliculas.Shared.dll
 E:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.pdb
 E:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\ref\BlazorPeliculas.Shared.dll
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.deps.json
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.dll
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.pdb
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.AssemblyInfoInputs.cache
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.AssemblyInfo.cs
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.csproj.CoreCompileInputs.cache
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.sourcelink.json
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.dll
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\refint\BlazorPeliculas.Shared.dll
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.pdb
+D:\programas\xampp\htdocs\Blazor.Net\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\ref\BlazorPeliculas.Shared.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sCOTLqiV8+3ftDI7Gl8zzEAeqmtEJlPA2/uJir8c6txnSfGi1LwD105LLgPaPUwB9dN5shDMGLptpkSECPZJQg==",
+  "dgSpecHash": "3b62HpZa8JVSr5rxEegXht/+q3H18zVRbdV66V2w4ScsObGBJK5TePsltwIMOwhhPXSezqh+LnWczJZsXBW0aw==",
   "success": true,
-  "projectFilePath": "E:\\programas\\xampp\\htdocs\\Blazor.Net\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
+  "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\BlazorPeliculas\\BlazorPeliculas\\Shared\\BlazorPeliculas.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

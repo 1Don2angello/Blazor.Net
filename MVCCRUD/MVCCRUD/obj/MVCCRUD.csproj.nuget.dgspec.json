@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj": {}
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj": {}
   },
   "projects": {
-    "E:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj",
         "projectName": "MVCCRUD",
-        "projectPath": "E:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\MVCCRUD.csproj",
+        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\MVCCRUD\\MVCCRUD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
