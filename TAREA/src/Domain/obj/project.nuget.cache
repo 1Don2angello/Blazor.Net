@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GrjFZNm+07E6nvAoupa24eHOc1Xh/sF1jX/RKYbi/fKKk2xNeCQU+pVrtHbPxD/9uPsJx7eD877+Q1oNwxb3Pw==",
+  "success": true,
+  "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
