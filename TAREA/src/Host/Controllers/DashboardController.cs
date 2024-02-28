@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ApplicationCore.Wrappers;
 using ApplicationCore.DTOs.persona;
+using ApplicationCore.DTOs.formulario;
 namespace Host.Controllers
 {
     [Route("api/dashboard")]
@@ -42,11 +43,12 @@ namespace Host.Controllers
             var result = await _service.GetIp();
             return Ok(result);
         }
-
-        [HttpGet("GetFormularioIp")]
-        public async Task<IActionResult> G()
+        [HttpGet("GetFormIp")]
+        public async Task<IActionResult> GetFormIp()
         {
-         //crear entidad   
+            var resultado = await _service.GetFormIp();
+            return Ok(resultado);
         }
+
     }
 }

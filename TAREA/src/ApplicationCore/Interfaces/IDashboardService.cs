@@ -10,5 +10,6 @@ namespace ApplicationCore.Interfaces
         Task<Response<int>> Create(PersonaDto request);
         Task<Response<int>> Update(int id, PersonaDto request);
         Task<Response<string>> GetIp();
+        Task<Response<string>> GetFormIp();
     }
 }

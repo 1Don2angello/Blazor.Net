@@ -7,8 +7,11 @@ using Infraestructure.Persistence;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using ApplicationCore.DTOs.persona;
+using ApplicationCore.DTOs.formulario;
 using System.Net.Sockets;
 using System.Net;
+using Microsoft.AspNetCore.Http;
+using System.Reflection.Metadata.Ecma335;
 
 
 namespace Infraestructure.Services
@@ -55,11 +58,24 @@ namespace Infraestructure.Services
 
             return new Response<int>(1); // Operación exitosa
         }
-        public async Task<Response<string>>GetIp() {
+        public async Task<Response<string>>GetIp() 
+        {
             IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
             IPAddress iPAddress = host.AddressList.FirstOrDefault(ip => ip.AddressFamily == AddressFamily.InterNetwork);
             var ipAdressString = iPAddress?.ToString() ?? "No se pudo determinar la direccion ip";
             return new Response<string> (ipAdressString );
+        }
+
+        public async Task<Response<int>> GetFormIp(formDTOs request)
+        {
+            var newPersona = _mapper.Map<Domain.Entities.formulario_ip>(request);
+            await _dbContext.formulario-ip.AddAsync(newPersona);
+            await _dbContext.SaveChangesAsync();
+            return new Response<int>(1);
+            // Implementation logic for getting the form IP goes here
+            // You can use the `HttpContext` to get the IP address of the current request
+            //var ipAddress2 = HttpContext.Connection.RemoteIpAddress.ToString();
+            //return new Response<string>(ipAddress2);
         }
     }
 }

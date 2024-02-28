@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GrjFZNm+07E6nvAoupa24eHOc1Xh/sF1jX/RKYbi/fKKk2xNeCQU+pVrtHbPxD/9uPsJx7eD877+Q1oNwxb3Pw==",
+  "dgSpecHash": "glhue7QwL3pjSyUCsmNfG4kqCQoQm6eRkV/zY9+D84ebkdUdld+i87WELVhsiMkrPWcyV+FfsfUS5BuJLggXRQ==",
   "success": true,
-  "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Angel\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
-    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\Dev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
   ],
   "logs": []
 }

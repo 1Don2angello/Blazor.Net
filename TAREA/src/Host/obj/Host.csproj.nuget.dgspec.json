@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Host\\Host.csproj": {}
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Host\\Host.csproj": {}
   },
   "projects": {
-    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj"
+              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,26 +73,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,6 +126,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -129,26 +153,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Host\\Host.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Host\\Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Host\\Host.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Host\\Host.csproj",
         "projectName": "Host",
-        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Host\\Host.csproj",
-        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Host\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Host\\Host.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Host\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,11 +200,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\Infraestructure.csproj"
+              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\Infraestructure.csproj"
               }
             }
           }
@@ -175,6 +213,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -201,6 +244,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -209,21 +270,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\Infraestructure.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\Angel\\.nuget\\packages\\",
-        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Infraestructure\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -237,11 +298,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\seguridadInformatica\\src\\Domain\\Domain.csproj"
+              "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\TAREA\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -250,6 +311,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -346,12 +412,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
