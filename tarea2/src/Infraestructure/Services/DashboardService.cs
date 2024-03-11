@@ -43,11 +43,28 @@ namespace Infraestructure.Services
         public Task<Response<int>> GetClientUserAsync(UsuarioDto request)
         {
             throw new NotImplementedException();
+
         }
 
+        //public async Task<Response<int>> GetLogsCreate(LogsDto request)
+        //{
+            
+        //    var ip = GetClientIpAddress().Result.Message;
+        //    var c = new LogsDto();
+        //    c.IpAddress = ip;
+        //    c.NomFuncion = request.NomFuncion;
+        //    c.Fecha = request.Fecha;
+        //    c.Datos = request.Datos;
+        //    c.StatusLog = request.StatusLog;
+
+
+        //    var ca = _mapper.Map<Domain.Entities.Logs>(c);
+        //    await _dbContext.logs.AddAsync(ca);
+        //    await _dbContext.SaveChangesAsync();
+        //    return new Response<int>(ca.Id, "Registro creado");
+        //}
         public async Task<Response<int>> GetLogsCreate(LogsDto request)
         {
-            
             var ip = GetClientIpAddress().Result.Message;
             var c = new LogsDto();
             c.IpAddress = ip;
@@ -56,11 +73,46 @@ namespace Infraestructure.Services
             c.Datos = request.Datos;
             c.StatusLog = request.StatusLog;
 
-
             var ca = _mapper.Map<Domain.Entities.Logs>(c);
             await _dbContext.logs.AddAsync(ca);
             await _dbContext.SaveChangesAsync();
             return new Response<int>(ca.Id, "Registro creado");
         }
+
+        //public async Task<Response<int>> Create(UsuarioDto request)
+        //{
+        //    var newPersona = _mapper.Map<Domain.Entities.Usuario>(request);
+        //    await _dbContext.user.AddAsync(newPersona);
+        //    await _dbContext.SaveChangesAsync();
+        //    var log = new LogsDto();
+
+        //    var Name = request.Nombre;
+        //    var Apellido = request.Apellido_com;
+        //    var NuevoObjetoP = Name + " " + Apellido;
+        //    log.Datos = NuevoObjetoP;
+        //    log.NomFuncion = "create persona";
+        //    await GetLogsCreate (log);
+        //    return new Response<int>(newPersona.Id, "persona creada");
+
+
+        //}
+        public async Task<Response<int>> Create(UsuarioDto request)
+        {
+            var newUsuario = _mapper.Map<Domain.Entities.Usuario>(request);
+            await _dbContext.user.AddAsync(newUsuario);
+            await _dbContext.SaveChangesAsync();
+            var respuestaUno = new Response<int>(1, "Registro craedo");
+
+            var log = new LogsDto();
+            var usuario = JsonSerializer.Serialize(request);
+
+            log.Datos = usuario;
+            log.Funcion = "Usuario";
+            log.Respuesta = "eeee";
+            await GetLogsCreate(log);
+            return respuestaUno;
+        }
+
+
     }
 }

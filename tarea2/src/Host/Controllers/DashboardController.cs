@@ -1,10 +1,13 @@
-﻿using ApplicationCore.DTOs;
-using ApplicationCore.Interfaces;
+﻿using ApplicationCore.Interfaces;
+using ApplicationCore.Wrappers;
+using ApplicationCore.DTOs;
+using Infraestructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
-using ApplicationCore.Wrappers;
+
 using ApplicationCore.Commads;
+
 
 namespace Host.Controllers
 {
@@ -56,6 +59,13 @@ namespace Host.Controllers
         public async Task<ActionResult<Response<int>>> CreateLogs([FromBody] LogsDto request)
         {
             var result = await _service.GetLogsCreate(request);
+            return Ok(result);
+        }
+
+        [HttpPost("Create")]
+        public async Task<ActionResult<Response<int>>> Create([FromBody] UsuarioDto request)
+        {
+            var result = await _service.Create( request);
             return Ok(result);
         }
     }
