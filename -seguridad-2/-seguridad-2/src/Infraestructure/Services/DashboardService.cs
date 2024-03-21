@@ -36,13 +36,11 @@ namespace Infraestructure.Services
             return new Response<Object>(list);
         }
 
-
-        F
-        public async Task<Response<int>> Create(UsuarioDTO request)
+        public async Task<Response<int>> Create(UsuarioCompletoDTO request)
         {
             try
             {
-                var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
+                var newUsuario = _mapper.Map<Domain.Entities.UsuarioCompleto>(request);
                 await _dbContext.Usuarios.AddAsync(newUsuario);
                 await _dbContext.SaveChangesAsync();
 
@@ -83,7 +81,7 @@ namespace Infraestructure.Services
 
 
 
-        public async Task<Response<int>> Update(UsuarioDTO request)
+        public async Task<Response<int>> Update(UsuarioCompletoDTO request)
         {
             // Buscar el usuario que se desea actualizar en la base de datos
             var existingUsuario = await _dbContext.Usuarios.FirstOrDefaultAsync(u => u.Id == request.Id);
