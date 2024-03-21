@@ -23,11 +23,26 @@ namespace Infraestructure.Services
             _mapper = mapper;
         }
 
+        //public async Task<Response<object>> GetData()
+        //{
+        //    var list = await _dbContext.Usuarios.ToListAsync();
+        //    return new Response<object>(list);
+        //}
         public async Task<Response<object>> GetData()
         {
-            var list = await _dbContext.Usuarios.ToListAsync();
-            return new Response<object>(list);
+            try
+            {
+                var list = await _dbContext.Usuarios.ToListAsync();
+                return new Response<object>(list, true, "Datos recuperados con éxito.");
+            }
+            catch (Exception ex)
+            {
+                await LogError(null, ex, "GetData");
+                return new Response<object>(null, false, "Error al recuperar datos.");
+            }
         }
+
+
 
         public async Task<Response<int>> Create(UsuarioCompletoDTO request)
         {
