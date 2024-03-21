@@ -15,5 +15,7 @@ namespace ApplicationCore.Interfaces
         Task<Response<string>> GetIp();
 
         Task<Response<int>> GetLogsCreate(LogsDto request);
+        Task<Response<int>> Delete(int id);
     }
+
 }
