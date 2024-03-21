@@ -1,4 +1,5 @@
-
+create database Seguridad;
+use Seguridad;
 
 create TABLE Usuarios (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -8,8 +9,8 @@ create TABLE Usuarios (
 
 INSERT INTO Usuarios (Nombre, Apellido)
 VALUES ('Juan', 'Perez'),
-       ('María', 'González'),
-       ('Pedro', 'López');
+       ('Marï¿½a', 'Gonzï¿½lez'),
+       ('Pedro', 'Lï¿½pez');
 
 
 select * from Usuarios
