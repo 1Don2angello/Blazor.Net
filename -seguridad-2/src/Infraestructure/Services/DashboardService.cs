@@ -54,12 +54,27 @@ namespace Infraestructure.Services
 
 
         //get data 
+        //public async Task<Response<object>> GetData()
+        //{
+        //    var list = await _dbContext.Usuarios.ToListAsync();
+        //    return new Response<object>(list);
+        //}
+
         public async Task<Response<object>> GetData()
         {
-            var list = await _dbContext.Usuarios.ToListAsync();
-            return new Response<object>(list);
+            try
+            {
+                var list = await _dbContext.Usuarios.ToListAsync();
+                return new Response<object>(0, "Datos recuperados con éxito.");
+            }
+            catch (Exception ex)
+            {
+                // Aquí deberías registrar el error, dependiendo de tu infraestructura de logging.
+                // Por ejemplo, si tienes un método LogError como antes:
+                await LogError("GetData", "Intento de recuperar todos los usuarios.", ex.Message);
+                return new Response<object>(0, "Error al recuperar los datos: " + ex.Message);
+            }
         }
-
 
 
         /// este es create con try cachar
@@ -105,17 +120,7 @@ namespace Infraestructure.Services
             }
         }
         /// este es delete 
-        //public async Task<Response<int>> Delete(int id)
-        //{
-        //    var usuario = await _dbContext.Usuarios.FindAsync(id);
-        //    if (usuario == null)
-        //    {
-        //        return new Response<int>(0, "Usuario no encontrado");
-        //    }
-        //    _dbContext.Usuarios.Remove(usuario);
-        //    await _dbContext.SaveChangesAsync();
-        //    return new Response<int>(id, "Usuario eliminado exitosamente");
-        //}
+
         public async Task<Response<int>> Delete(int id)
         {
             try
@@ -138,10 +143,40 @@ namespace Infraestructure.Services
 
 
         ///este es de los logs
-        public Task<Response<int>> GetLogsCreate(LogsDto request)
+        //public Task<Response<int>> GetLogsCreate(LogsDto request)
+        //{
+        //    throw new NotImplementedException();
+        //}
+        public async Task<Response<int>> GetLogsCreate(LogsDto request)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Suponiendo que tienes una entidad 'Log' y un DbContext 'dbContext' para acceder a tu base de datos
+                var logEntry = new Logs
+                {
+                    IpAdress = request.IpAdress,
+                    Respuesta = request.Respuesta,
+                    Datos = request.Datos,
+                    Funcion = request.Funcion,
+                    // Puedes agregar más campos aquí si es necesario, como una marca de tiempo, etc.
+                };
+
+                _dbContext.logs.Add(logEntry);
+                await _dbContext.SaveChangesAsync();
+
+                return new Response<int>(logEntry.Id,"Log creado exitosamente.");
+            }
+            catch (Exception ex)
+            {
+                // Aquí deberías manejar el error de alguna manera.
+                // Por ejemplo, puedes querer registrar en una salida de consola o en un archivo.
+                Console.WriteLine($"Error al crear log: {ex.Message}");
+
+                // Devuelve un código de respuesta apropiado para la excepción
+                return new Response<int>(0, "Error al registrar el log.");
+            }
         }
+
         ////
         ///este funciona y usa log error
         private async Task LogError(string funcion, string datos, string respuesta, string ipAdress = null)
@@ -164,11 +199,52 @@ namespace Infraestructure.Services
             var ip = host.AddressList.FirstOrDefault(a => a.AddressFamily == AddressFamily.InterNetwork);
             return ip?.ToString() ?? "IP desconocida";
         }
+
+
+
         public async Task<Response<string>> GetIp()
         {
-            IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ip = host.AddressList.FirstOrDefault(a => a.AddressFamily == AddressFamily.InterNetwork);
-            return new Response<string>(ip?.ToString() ?? "IP no encontrada");
+            try
+            {
+                IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+                IPAddress ip = host.AddressList.FirstOrDefault(a => a.AddressFamily == AddressFamily.InterNetwork);
+                if (ip == null)
+                {
+                    throw new Exception("Dirección IP no encontrada en la red de interconexión.");
+                }
+                return new Response<string>(ip.ToString(), "IP encontrada con éxito.");
+            }
+            catch (Exception ex)
+            {
+                // Aquí deberías registrar el error, dependiendo de tu infraestructura de logging.
+                // Por ejemplo, si tienes un método LogError como se ha mostrado en ejemplos anteriores:
+                await LogError("GetIp", "", ex.Message);
+                return new Response<string>(null, ex.Message);
+            }
         }
+
+        //private async Task LogError(string action, string data, string message)
+        //{
+        //    // Aquí va la implementación de tu registro de errores.
+        //    // Podría ser algo como lo siguiente, adaptándolo a tu aplicación específica:
+        //    var logEntry = new Logs
+        //    {
+        //        IpAddress = GetClientIp(), // Asumiendo que tienes un método para obtener la IP del cliente.
+        //        Message = message,
+        //        Data = data,
+        //        Action = action,
+        //        DateTime = DateTime.UtcNow // Asumiendo que quieres registrar la fecha y hora del error.
+        //    };
+
+        //    _dbContext.Logs.Add(logEntry);
+        //    await _dbContext.SaveChangesAsync();
+        //}
+
+        //public async Task<Response<string>> GetIp2()
+        //{
+        //    IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
+        //    IPAddress ip = host.AddressList.FirstOrDefault(a => a.AddressFamily == AddressFamily.InterNetwork);
+        //    return new Response<string>(ip?.ToString() ?? "IP no encontrada");
+        //}
     }
 }
