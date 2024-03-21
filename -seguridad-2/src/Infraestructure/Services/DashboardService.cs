@@ -36,173 +36,11 @@ namespace Infraestructure.Services
             return new Response<Object>(list);
         }
 
-
-        //public async Task<Response<int>> Create(UsuarioDTO request)
-        //{
-        //    var  newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
-        //    await _dbContext.Usuarios.AddAsync(newUsuario);
-        //    await _dbContext.SaveChangesAsync();
-        //    var respuestaUno = new Response<int>(1, "Registro craedo");
-
-        //    var log = new LogsDto();
-        //    var usuario = JsonSerializer.Serialize(request);
-
-        //    log.Datos = usuario;
-        //    log.Funcion = "Usuario";
-        //    log.Respuesta = "eeee";
-        //    await GetLogsCreate(log);
-        //    return respuestaUno;
-        //}
-
-
-        ////public async Task<Response<int>> Create(UsuarioDTO request)
-        ////{
-        ////    try
-        ////    {
-        ////        var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
-        ////        await _dbContext.Usuarios.AddAsync(newUsuario);
-        ////        await _dbContext.SaveChangesAsync();
-
-        ////        var respuestaUno = new Response<int>(1, "Registro creado");
-
-        ////        var log = new LogsDto();
-        ////        var usuario = JsonSerializer.Serialize(request);
-
-        ////        log.Datos = usuario;
-        ////        log.Funcion = "Usuario";
-        ////        log.Respuesta = "Éxito";
-
-        ////        await GetLogsCreate(log);
-
-        ////        return respuestaUno;
-        ////    }
-        ////    catch (Exception ex)
-        ////    {
-        ////        return await HandleException(ex.Message, "Usuario");
-        ////    }
-        ////}
-
-
-        //private async Task<Response<int>> HandleException(string errorMessage, string functionName)
-        //    {
-        //        var errorResponse = new Response<int>(0, $"Error al crear el registro: {errorMessage}");
-        //        var ipResponse = await GetIp(); // Obtener la IP de forma asíncrona
-        //        var errorLog = new LogsDto();
-        //        errorLog.IpAdress= ipResponse.Message;
-        //        errorLog.Datos = "No se pudo completar la operación";
-        //        errorLog.Funcion = functionName;
-        //        errorLog.Respuesta = errorMessage;
-
-        //        await GetLogsCreate(errorLog);
-
-        //        return errorResponse;
-        //    }
-        //public async Task<Response<int>> Create(UsuarioDTO request)
-        //{
-        //    try
-        //    {
-        //        var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
-        //        await _dbContext.Usuarios.AddAsync(newUsuario);
-        //        await _dbContext.SaveChangesAsync();
-
-        //        var respuestaUno = new Response<int>(1, "Registro creado");
-
-        //        var log = new LogsDto();
-        //        var usuario = JsonConvert.SerializeObject(request); // Utiliza JsonConvert.SerializeObject de Newtonsoft.Json
-
-        //        log.Datos = usuario;
-        //        log.Funcion = "Usuario";
-        //        log.Respuesta = "Éxito";
-
-        //        await GetLogsCreate(log);
-
-        //        return respuestaUno;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return await HandleException(ex.Message, "Usuario");
-        //    }
-        //}
-        //public async Task<Response<int>> Create(UsuarioDTO request)
-        //{
-        //    try
-        //    {
-        //        var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
-        //        await _dbContext.Usuarios.AddAsync(newUsuario);
-        //        await _dbContext.SaveChangesAsync();
-
-        //        var respuestaUno = new Response<int>(1, "Registro creado");
-
-        //        var log = new LogsDto();
-        //        var usuario = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-
-        //        //var usuario = JsonSerializer.Serialize(request);
-
-        //        log.Datos = usuario;
-        //        log.Funcion = "Usuario";
-        //        log.Respuesta = "Nose creo usuario bien";
-        //        await GetLogsCreate(log);
-
-        //        return respuestaUno;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        var errorMessage = "Error al crear el registro: " + ex.Message;
-        //        var errorResponse = new Response<int>(0, errorMessage);
-
-        //        var errorLog = new LogsDto();
-        //        errorLog.Datos = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-        //        errorLog.Respuesta = "Create";
-        //        errorLog.Respuesta = errorMessage;
-
-        //        await GetLogsCreate(errorLog);
-
-        //        return errorResponse;
-        //    }
-        //}
-
-        //public async Task<Response<int>> Create(UsuarioDTO request)
-        //{
-        //    try
-        //    {
-        //        var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
-        //        await _dbContext.Usuarios.AddAsync(newUsuario);
-        //        await _dbContext.SaveChangesAsync();
-
-        //        var respuestaUno = new Response<int>(1, "Registro creado");
-
-        //        var log = new LogsDto();
-        //        var usuario = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-
-        //        //var usuario = JsonSerializer.Serialize(request);
-
-        //        log.Datos = usuario;
-        //        log.Funcion = "Usuario";
-        //        log.Respuesta = "Nose creo usuario bien";
-        //        await GetLogsCreate(log);
-
-        //        return respuestaUno;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        var errorMessage = "Error al crear el registro: " + ex.Message;
-        //        var errorResponse = new Response<int>(0, errorMessage);
-
-        //        var errorLog = new LogsDto();
-        //        errorLog.Datos = Newtonsoft.Json.JsonConvert.SerializeObject(request);
-        //        errorLog.Respuesta = "Create";
-        //        errorLog.Respuesta = errorMessage;
-
-        //        await GetLogsCreate(errorLog);
-
-        //        return errorResponse;
-        //    }
-        //}
-        public async Task<Response<int>> Create(UsuarioDTO request)
+        public async Task<Response<int>> Create(UsuarioCompletoDTO request)
         {
             try
             {
-                var newUsuario = _mapper.Map<Domain.Entities.Usuarios>(request);
+                var newUsuario = _mapper.Map<Domain.Entities.UsuarioCompleto>(request);
                 await _dbContext.Usuarios.AddAsync(newUsuario);
                 await _dbContext.SaveChangesAsync();
 
@@ -243,7 +81,7 @@ namespace Infraestructure.Services
 
 
 
-        public async Task<Response<int>> Update(UsuarioDTO request)
+        public async Task<Response<int>> Update(UsuarioCompletoDTO request)
         {
             // Buscar el usuario que se desea actualizar en la base de datos
             var existingUsuario = await _dbContext.Usuarios.FirstOrDefaultAsync(u => u.Id == request.Id);

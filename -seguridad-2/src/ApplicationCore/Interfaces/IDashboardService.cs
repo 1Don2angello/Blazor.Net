@@ -8,9 +8,9 @@ namespace ApplicationCore.Interfaces
     {
         Task<Response<object>> GetData();
 
-        Task<Response<int>> Create(UsuarioDTO request);
+        Task<Response<int>> Create(UsuarioCompletoDTO request);
 
-        Task<Response<int>> Update(UsuarioDTO request);
+        Task<Response<int>> Update(UsuarioCompletoDTO request);
 
         Task<Response<string>> GetIp();
 

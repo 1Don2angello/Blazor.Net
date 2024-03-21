@@ -13,7 +13,7 @@ namespace ApplicationCore.Mappers
     {
         public UsuarioProfile() 
         {
-            CreateMap<UsuarioDTO, Usuarios>()
+            CreateMap<UsuarioCompletoDTO, UsuarioCompleto>()
             .ForMember(x => x.Id , y => y.Ignore());
         }
 

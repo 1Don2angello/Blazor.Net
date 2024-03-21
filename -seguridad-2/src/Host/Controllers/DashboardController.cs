@@ -30,14 +30,14 @@ namespace Host.Controllers
 
         [HttpPost("Create")]
 
-        public async Task<ActionResult<Response<int>>>Create([FromBody] UsuarioDTO request)
+        public async Task<ActionResult<Response<int>>>Create([FromBody] UsuarioCompletoDTO request)
         {
             var result = await _service.Create(request);
             return Ok(result);
         }
 
         [HttpPost("Update")]
-        public async Task<IActionResult> Update([FromBody] UsuarioDTO request)
+        public async Task<IActionResult> Update([FromBody] UsuarioCompletoDTO request)
         {
             var result = await _service.Update(request);
             return Ok(result);
