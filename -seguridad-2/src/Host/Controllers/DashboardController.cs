@@ -6,6 +6,7 @@ using Domain.Entities;
 using ApplicationCore.DTOs.Usuario;
 using Org.BouncyCastle.Asn1.Ocsp;
 using ApplicationCore.DTOs;
+using Infraestructure.Services;
 
 namespace Host.Controllers
 {
@@ -58,5 +59,14 @@ namespace Host.Controllers
             var result = await _service.GetLogsCreate(request);
             return Ok(result);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _service.Delete(id); 
+            return Ok(result);
+        }
+
+
     }
 }
