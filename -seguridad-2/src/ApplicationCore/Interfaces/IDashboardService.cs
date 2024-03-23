@@ -6,7 +6,8 @@ namespace ApplicationCore.Interfaces
 {
     public interface IDashboardService
     {
-        Task<Response<object>> GetData();
+        //Task<Response<object>> GetData();
+        Task<object> GetData(int pageNumber, int pageSize);
 
         Task<Response<int>> Create(UsuarioCompletoDTO request);
 
@@ -16,6 +17,9 @@ namespace ApplicationCore.Interfaces
 
         Task<Response<int>> GetLogsCreate(LogsDto request);
         Task<Response<int>> Delete(int id);
+
+
+
     }
 
 }

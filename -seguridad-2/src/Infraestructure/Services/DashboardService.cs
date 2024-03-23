@@ -1,10 +1,13 @@
 ﻿using ApplicationCore.DTOs;
+using ApplicationCore.Parameters;
 using ApplicationCore.DTOs.Usuario;
 using ApplicationCore.Interfaces;
 using ApplicationCore.Wrappers;
 using AutoMapper;
 using Domain.Entities;
 using Infraestructure.Persistence;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Net;
@@ -53,28 +56,84 @@ namespace Infraestructure.Services
         }
 
 
-        //get data 
+        /// <summary>
+        /// get data
+
+        public async Task<object> GetData(int pageNumber, int pageSize)
+        {
+            var query = _dbContext.Usuarios.AsQueryable();
+
+            var totalRecords = await query.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalRecords / pageSize);
+
+            // Ensure the page number is not out of range
+            pageNumber = pageNumber < 1 ? 1 : pageNumber;
+            pageNumber = pageNumber > totalPages ? totalPages : pageNumber;
+
+            var skip = (pageNumber - 1) * pageSize;
+            var data = await query.Skip(skip).Take(pageSize).ToListAsync();
+
+            var pagedResponse = new
+            {
+                TotalRecords = totalRecords,
+                TotalPages = totalPages,
+                CurrentPage = pageNumber,
+                PageSize = pageSize,
+                Users = data
+            };
+
+            return pagedResponse;
+        }
+
+
         //public async Task<Response<object>> GetData()
         //{
         //    var list = await _dbContext.Usuarios.ToListAsync();
         //    return new Response<object>(list);
         //}
+        //public async task<iactionresult> getusers([fromquery] paginationparameters parameters)
+        //{
+        //    var pagenumber = parameters.pagenumber;
+        //    var pagesize = parameters.pagesize;
+        //    try
+        //    {
+        //        if (pagenumber == null && pagesize == null)
+        //        {
+        //            var result = await _service.getalldata();
+        //            return ok(result);
+        //        }
+        //        else
+        //        {
+        //            var result = await _service.getpageddata((int)pagenumber, (int)pagesize);
+        //            return ok(result);
+        //        }
+        //    }
+        //    catch (exception ex)
+        //    {
+        //        return statuscode(statuscodes.status500internalservererror, ex);
+        //    }
 
-        public async Task<Response<object>> GetData()
-        {
-            try
-            {
-                var list = await _dbContext.Usuarios.ToListAsync();
-                return new Response<object>(0, "Datos recuperados con éxito.");
-            }
-            catch (Exception ex)
-            {
-                // Aquí deberías registrar el error, dependiendo de tu infraestructura de logging.
-                // Por ejemplo, si tienes un método LogError como antes:
-                await LogError("GetData", "Intento de recuperar todos los usuarios.", ex.Message);
-                return new Response<object>(0, "Error al recuperar los datos: " + ex.Message);
-            }
-        }
+        //}
+        //public async Task<Response<object>> GetPagedData(int pageNumber, int pageSize)
+        //{
+        //    try
+        //    {
+        //        int skip = (pageNumber - 1) * pageSize;
+
+        //        var pagedData = await _dbContext.Usuarios
+        //                                  .OrderBy(x => x.Id)
+        //                                  .Skip(skip)
+        //                                  .Take(pageSize)
+        //                                  .ToListAsync();
+        //        //await _dbContext.Usuarios.OrderBy(x => x.Id).PaginateAsync(pageNumber, pageSize);
+        //        return new Response<object>(pagedData);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return new Response<object>(ex.Message);
+        //    }
+        //}
+
 
 
         /// este es create con try cachar
@@ -143,10 +202,7 @@ namespace Infraestructure.Services
 
 
         ///este es de los logs
-        //public Task<Response<int>> GetLogsCreate(LogsDto request)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        
         public async Task<Response<int>> GetLogsCreate(LogsDto request)
         {
             try

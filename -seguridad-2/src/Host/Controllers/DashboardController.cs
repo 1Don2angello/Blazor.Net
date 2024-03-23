@@ -21,12 +21,25 @@ namespace Host.Controllers
         }
 
 
+        //[HttpGet("getData")]
+        //public async Task<IActionResult> GetUsuarios()
+        //{
+        //    var result = await _service.GetData();
+        //    return Ok(result);
+        //}
+        //[HttpGet]
+        //public async Task<IActionResult> GetUsers([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
+        //{
+        //    var result = await _dashboardService.GetData(pageNumber, pageSize);
+        //    return Ok(result);
+        //}
         [HttpGet("getData")]
-        public async Task<IActionResult> GetUsuarios()
+        public async Task<IActionResult> GetUsers([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
-            var result = await _service.GetData();
+            var result = await _service.GetData(pageNumber, pageSize);
             return Ok(result);
         }
+
 
 
         [HttpPost("Create")]
