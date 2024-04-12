@@ -19,7 +19,7 @@ namespace Host.Controllers
         {
             _service = service;
         }
-
+        
 
         //[HttpGet("getData")]
         //public async Task<IActionResult> GetUsuarios()
