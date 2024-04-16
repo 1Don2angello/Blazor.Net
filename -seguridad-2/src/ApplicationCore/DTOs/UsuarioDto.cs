@@ -21,3 +21,4 @@ namespace ApplicationCore.DTOs.Usuario
         public string Genero { get; set; }
     }
 }
+    

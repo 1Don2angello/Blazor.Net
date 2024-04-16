@@ -81,5 +81,15 @@ namespace Host.Controllers
         }
 
 
+
+
+        [HttpPost("CreateProfesor")]
+
+        public async Task<ActionResult<Response<int>>> CreateProfesor([FromBody] ProfesoresDTO request)
+        {
+            var result = await _service.CreateProfesor(request);
+            return Ok(result);
+        }
     }
+
 }

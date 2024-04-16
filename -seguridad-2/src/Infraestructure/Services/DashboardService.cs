@@ -86,54 +86,6 @@ namespace Infraestructure.Services
         }
 
 
-        //public async Task<Response<object>> GetData()
-        //{
-        //    var list = await _dbContext.Usuarios.ToListAsync();
-        //    return new Response<object>(list);
-        //}
-        //public async task<iactionresult> getusers([fromquery] paginationparameters parameters)
-        //{
-        //    var pagenumber = parameters.pagenumber;
-        //    var pagesize = parameters.pagesize;
-        //    try
-        //    {
-        //        if (pagenumber == null && pagesize == null)
-        //        {
-        //            var result = await _service.getalldata();
-        //            return ok(result);
-        //        }
-        //        else
-        //        {
-        //            var result = await _service.getpageddata((int)pagenumber, (int)pagesize);
-        //            return ok(result);
-        //        }
-        //    }
-        //    catch (exception ex)
-        //    {
-        //        return statuscode(statuscodes.status500internalservererror, ex);
-        //    }
-
-        //}
-        //public async Task<Response<object>> GetPagedData(int pageNumber, int pageSize)
-        //{
-        //    try
-        //    {
-        //        int skip = (pageNumber - 1) * pageSize;
-
-        //        var pagedData = await _dbContext.Usuarios
-        //                                  .OrderBy(x => x.Id)
-        //                                  .Skip(skip)
-        //                                  .Take(pageSize)
-        //                                  .ToListAsync();
-        //        //await _dbContext.Usuarios.OrderBy(x => x.Id).PaginateAsync(pageNumber, pageSize);
-        //        return new Response<object>(pagedData);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return new Response<object>(ex.Message);
-        //    }
-        //}
-
 
 
         /// este es create con try cachar
@@ -279,28 +231,65 @@ namespace Infraestructure.Services
             }
         }
 
-        //private async Task LogError(string action, string data, string message)
+
+        /// este es create con try cachar
+        //public async Task<Response<int>> CreateProfesor(ProfesoresDTO request)
         //{
-        //    // Aquí va la implementación de tu registro de errores.
-        //    // Podría ser algo como lo siguiente, adaptándolo a tu aplicación específica:
-        //    var logEntry = new Logs
+        //    try
         //    {
-        //        IpAddress = GetClientIp(), // Asumiendo que tienes un método para obtener la IP del cliente.
-        //        Message = message,
-        //        Data = data,
-        //        Action = action,
-        //        DateTime = DateTime.UtcNow // Asumiendo que quieres registrar la fecha y hora del error.
-        //    };
-
-        //    _dbContext.Logs.Add(logEntry);
-        //    await _dbContext.SaveChangesAsync();
+        //        // Validar el DTO de entrada
+        //        ValidateProfesorDTO(request);
+        //        var profesor = _mapper.Map<ProfesoresDTO>(request);
+        //        await _dbContext.Profesores.AddAsync(profesor);
+        //        await _dbContext.SaveChangesAsync();
+        //        return new Response<int>(profesor.pkProfesor, "Profesor creado exitosamente.");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Aquí registras el error antes de lanzar la excepción para que sea capturado en un nivel superior,
+        //        // como un middleware de manejo de errores que puede registrar el error y responder adecuadamente.
+        //        await LogError("Create", JsonConvert.SerializeObject(request), ex.Message);
+        //        return new Response<int>(0, ex.Message);
+        //    }
         //}
 
-        //public async Task<Response<string>> GetIp2()
-        //{
-        //    IPHostEntry host = Dns.GetHostEntry(Dns.GetHostName());
-        //    IPAddress ip = host.AddressList.FirstOrDefault(a => a.AddressFamily == AddressFamily.InterNetwork);
-        //    return new Response<string>(ip?.ToString() ?? "IP no encontrada");
-        //}
+        public async Task<Response<int>> CreateProfesor(ProfesoresDTO request)
+        {
+            
+            // Asegúrate de que el mapeo se hace hacia la entidad correcta (ProfesorCompleto)
+            var profesor = _mapper.Map<ProfesorCompleto>(request);
+
+            // Añadir el profesor mapeado al contexto
+            await _dbContext.Profesores.AddAsync(profesor);
+            // Guardar los cambios en la base de datos
+            await _dbContext.SaveChangesAsync();
+            // Devolver un Response<int> con el ID del profesor, que es lo que espera la interfaz
+            return new Response<int>(profesor.pkProfesor, "Profesor creado exitosamente.");
+        }
+
+
+        /// validaciones 
+        private void ValidateProfesorDTO(ProfesorCompleto profesor)
+        {
+            var errors = new List<string>();
+            if (string.IsNullOrWhiteSpace(profesor.Nombre))
+                errors.Add("El nombre es obligatorio.");
+            if (string.IsNullOrWhiteSpace(profesor.ApMaterno))
+                errors.Add("El apellido es obligatorio.");
+            if (string.IsNullOrWhiteSpace(profesor.ApPaterno))
+                errors.Add("El apellido es obligatorio.");
+            if (string.IsNullOrWhiteSpace(profesor.Matricula))
+                errors.Add("Debe proporcionar una matricula válido.");
+           //-- if (DateTime.IsNullOrWhiteSpace(profesor.FechaIngreso))
+             //---   errors.Add("El teléfono es obligatorio.");
+           
+            
+            // Agregar más validaciones conforme a las reglas de negocio
+            if (errors.Any())
+                throw new ArgumentException(string.Join(" ", errors));
+        }
+
+
+
     }
 }

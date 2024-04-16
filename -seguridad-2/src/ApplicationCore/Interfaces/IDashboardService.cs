@@ -19,6 +19,10 @@ namespace ApplicationCore.Interfaces
         Task<Response<int>> Delete(int id);
 
 
+        //examen 
+        Task<Response<int>> CreateProfesor(ProfesoresDTO request);
+        //Task<Response<int>> CreateAsignatura(AsignaturaDTO request); 
+
 
     }
 
