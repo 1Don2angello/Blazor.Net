@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\IDYGS93-ASP-NET-CORE-WEB-API.props" />
-</Project>
