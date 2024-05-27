@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj": {}
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj": {
+    "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj",
+        "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj",
         "projectName": "WebApiPersona",
-        "projectPath": "C:\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj",
-        "packagesPath": "C:\\Users\\Miss}\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\obj\\",
+        "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\WebApiPersona.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApiPersona\\WebApiPersona\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Miss}\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
