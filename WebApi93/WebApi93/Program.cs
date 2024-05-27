@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi93.Context;
+using WebApi93.Service.IServices;
+using WebApi93.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
-
+builder.Services.AddTransient<IUsuarioServices , Usuarioservices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,3 +31,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
