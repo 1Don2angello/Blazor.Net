@@ -7,7 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 //crear una variable para la cadena de conexion
 var connectionString = builder.Configuration.GetConnectionString("Connection");
 //registar servicio para la conexion
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer("Connection"));
+builder.Services.AddDbContext<AppDbContext>(
+    options => options.UseSqlServer(connectionString)
+    );
 
 
 builder.Services.AddControllers();
