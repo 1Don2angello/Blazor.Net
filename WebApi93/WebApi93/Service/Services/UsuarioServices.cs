@@ -21,12 +21,12 @@ namespace WebApi93.Service.Services
         {
             try
             {
-                List<Usuario> response = await _context.Usuarios.ToListAsync();
+                List<Usuario> response = await _context.Usuarios.Include( y => y.Roles).ToListAsync();
                 return new Response<List<Usuario>>(response);
             }
-            catch
+            catch(Exception ex)
             {
-                throw;
+                throw new Exception("Ocurrio un error"+ ex.Message);
             }
         }
         //Crear usuario 
