@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\service\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\service\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\service\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\service\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\service\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\service\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\service\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\service\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|solutionrelative:webapi93\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BB95D03-52B4-4FA3-8706-CE7034CDD9AE}|WebApi93\\WebApi93.csproj|d:\\programas\\xampp\\htdocs\\blazor.net\\webapi93\\webapi93\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,43 +38,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 278,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApi93\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApi93\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi93\\Program.cs",
+              "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Program.cs",
+              "RelativeToolTip": "WebApi93\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:27:50.988Z",
+              "WhenOpened": "2024-05-31T01:59:36.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AutoresController.cs",
               "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Controllers\\AutoresController.cs",
               "RelativeDocumentMoniker": "WebApi93\\Controllers\\AutoresController.cs",
               "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Controllers\\AutoresController.cs",
               "RelativeToolTip": "WebApi93\\Controllers\\AutoresController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T01:27:13.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IAutorServices.cs",
               "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Service\\IServices\\IAutorServices.cs",
               "RelativeDocumentMoniker": "WebApi93\\Service\\IServices\\IAutorServices.cs",
               "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Service\\IServices\\IAutorServices.cs",
               "RelativeToolTip": "WebApi93\\Service\\IServices\\IAutorServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T01:23:10.698Z",
               "EditorCaption": ""
@@ -91,7 +87,7 @@
               "RelativeDocumentMoniker": "WebApi93\\Service\\Services\\AutorServices.cs",
               "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Service\\Services\\AutorServices.cs",
               "RelativeToolTip": "WebApi93\\Service\\Services\\AutorServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAA8AAABAZmZmZmYSwBYAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T01:23:27.544Z",
               "EditorCaption": ""
@@ -99,19 +95,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IUsuarioServices.cs",
-              "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Service\\IServices\\IUsuarioServices.cs",
-              "RelativeDocumentMoniker": "WebApi93\\Service\\IServices\\IUsuarioServices.cs",
-              "ToolTip": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Service\\IServices\\IUsuarioServices.cs",
-              "RelativeToolTip": "WebApi93\\Service\\IServices\\IUsuarioServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:24:29.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApi93\\Context\\ApplicationDbContext.cs",
@@ -119,12 +102,11 @@
               "RelativeToolTip": "WebApi93\\Context\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:15:59.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:15:59.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Libro.cs",
               "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\Domain\\Entities\\Libro.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Libro.cs",
@@ -132,12 +114,11 @@
               "RelativeToolTip": "Domain\\Entities\\Libro.cs",
               "ViewState": "AQIAAAkAAAAgMzMzMzMrwAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:10:32.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:10:32.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Autor.cs",
               "DocumentMoniker": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\Domain\\Entities\\Autor.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Autor.cs",
@@ -145,8 +126,7 @@
               "RelativeToolTip": "Domain\\Entities\\Autor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:08:13.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:08:13.226Z"
             }
           ]
         }

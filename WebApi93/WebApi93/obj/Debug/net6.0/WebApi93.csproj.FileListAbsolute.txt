@@ -139,3 +139,4 @@ D:\programas\xampp\htdocs\Blazor.Net\WebApi93\WebApi93\obj\Debug\net6.0\refint\W
 D:\programas\xampp\htdocs\Blazor.Net\WebApi93\WebApi93\obj\Debug\net6.0\WebApi93.pdb
 D:\programas\xampp\htdocs\Blazor.Net\WebApi93\WebApi93\obj\Debug\net6.0\WebApi93.genruntimeconfig.cache
 D:\programas\xampp\htdocs\Blazor.Net\WebApi93\WebApi93\obj\Debug\net6.0\ref\WebApi93.dll
+D:\programas\xampp\htdocs\Blazor.Net\WebApi93\WebApi93\bin\Debug\net6.0\Dapper.dll
