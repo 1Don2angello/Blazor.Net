@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a/UKhlOKSYFhlKoKGTUPxL8yEPt5AHhGjEBvP/K5SXhH/Xm2JyYR2R1QQk8xuyCHhiFpCIjYkdOz4st3RcCwYQ==",
+  "dgSpecHash": "3AS/giebI7BMLw/OdM0WQoITzY+bxTSSVEh9A1xpSrrVfdScPsngLFb2ObVrFIlaeu2e9UznMAqei6IfuOzsKg==",
   "success": true,
   "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\WebApi93\\WebApi93\\WebApi93.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dev\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

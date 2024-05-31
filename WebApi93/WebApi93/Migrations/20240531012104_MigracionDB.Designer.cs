@@ -12,8 +12,8 @@ using WebApi93.Context;
 namespace WebApi93.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240521231034_example")]
-    partial class example
+    [Migration("20240531012104_MigracionDB")]
+    partial class MigracionDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,6 +23,57 @@ namespace WebApi93.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("Domain.Entities.Autor", b =>
+                {
+                    b.Property<int>("PkAutor")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PkAutor"), 1L, 1);
+
+                    b.Property<string>("Nacionalidad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PkAutor");
+
+                    b.ToTable("Autores");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Libro", b =>
+                {
+                    b.Property<int>("PkLibro")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PkLibro"), 1L, 1);
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Editorial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FkAutor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PkLibro");
+
+                    b.HasIndex("FkAutor");
+
+                    b.ToTable("Libros");
+                });
 
             modelBuilder.Entity("Domain.Entities.Rol", b =>
                 {
@@ -86,6 +137,17 @@ namespace WebApi93.Migrations
                             Password = "123",
                             User = "Usuario"
                         });
+                });
+
+            modelBuilder.Entity("Domain.Entities.Libro", b =>
+                {
+                    b.HasOne("Domain.Entities.Autor", "Autores")
+                        .WithMany()
+                        .HasForeignKey("FkAutor")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Autores");
                 });
 
             modelBuilder.Entity("Domain.Entities.Usuario", b =>

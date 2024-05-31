@@ -9,7 +9,8 @@ namespace WebApi93.Context
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Rol> Roles { get; set; }
-
+        public DbSet<Autor> Autores { get; set; }
+        public DbSet<Libro> Libros {  get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //Insertar en la tabla usuario
