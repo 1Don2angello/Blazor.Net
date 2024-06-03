@@ -63,8 +63,7 @@
               "RelativeToolTip": "WebApi93\\Controllers\\AutoresController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:27:13.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:27:13.47Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "WebApi93\\Service\\IServices\\IAutorServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:23:10.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:23:10.698Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "WebApi93\\Service\\Services\\AutorServices.cs",
               "ViewState": "AQIAAA8AAABAZmZmZmYSwBYAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:23:27.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:23:27.544Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "WebApi93\\Context\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:15:59.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:15:59.549Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Domain\\Entities\\Libro.cs",
               "ViewState": "AQIAAAkAAAAgMzMzMzMrwAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:10:32.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:10:32.129Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Domain\\Entities\\Autor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T01:08:13.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T01:08:13.226Z"
             }
           ]
         }
