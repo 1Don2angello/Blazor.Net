@@ -29,5 +29,24 @@ namespace WebApi93.Service.Services
                 return new Response<List<Autor>>();
             }
         }
+
+
+        public async Task<Response<Autor>> CrearA(Autor i)
+        {
+            try
+            {
+                Autor autor = (await _context.Database.GetDbConnection().QueryAsync<Autor>(
+                    "spCrearAutor",
+                    new { i.Nombre, i.Nacionalidad },
+                    commandType: System.Data.CommandType.StoredProcedure)
+                ).FirstOrDefault();
+
+                return new Response<Autor>(autor ?? new Autor());
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }
