@@ -1,0 +1,5 @@
+﻿D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\src\Domain\Contracts\AuditableBaseEntry.cs
+D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\src\Domain\Entities\BranchOffice.cs
+D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\src\Domain\Entities\Logs.cs
+D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\src\Domain\Entities\s.cs
+D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\src\Domain\Entities\Usuarios.cs

@@ -1,0 +1,8 @@
+Analyze "MINI-PROYECT" 1: sqp_80de9ca3ed5bf089c41077f0ebc621cec6e85a52
+
+
+dotnet-sonarscanner begin /k:"MINI-PROYECT" /d:sonar.login="sqp_80de9ca3ed5bf089c41077f0ebc621cec6e85a52"
+
+
+PS D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2> dotnet tool install --global dotnet-sonarscanner
+
