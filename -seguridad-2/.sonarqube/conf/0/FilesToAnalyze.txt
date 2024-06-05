@@ -1,3 +1,0 @@
-﻿D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\docker-compose.override.yml
-D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\docker-compose.yml
-D:\programas\xampp\htdocs\Blazor.Net\-seguridad-2\.dockerignore
