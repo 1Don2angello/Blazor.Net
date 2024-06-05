@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\services\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\services\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\services\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\services\\iservices\\iautorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\services\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\services\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\services\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\services\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\webapi83.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\webapi83.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\webapi83\\webapi83.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4CD89F60-6A2E-460D-AF06-302A42E94900}|WebApi83\\WebApi83.csproj|solutionrelative:webapi83\\webapi83.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|d:\\documentos\\apibiblioteca93-net6-develop\\apibiblioteca93-net6-develop\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9B832-2F2A-4CB9-AA26-F0FF09723E80}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorServices.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\Services\\AutorServices.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Services\\Services\\AutorServices.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\Services\\AutorServices.cs",
+              "RelativeToolTip": "WebApi83\\Services\\Services\\AutorServices.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwDIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Program.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Program.cs",
+              "RelativeToolTip": "WebApi83\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Services\\Services\\UsuarioServices.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "WebApi83\\Services\\Services\\UsuarioServices.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowBcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebApi83",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+              "RelativeDocumentMoniker": "WebApi83\\WebApi83.csproj",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+              "RelativeToolTip": "WebApi83\\WebApi83.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T23:56:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi83\\appsettings.json",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\appsettings.json",
+              "RelativeToolTip": "WebApi83\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T23:56:52.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApi83\\appsettings.Development.json",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\appsettings.Development.json",
+              "RelativeToolTip": "WebApi83\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T23:56:52.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsuarioServices.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\IServices\\IUsuarioServices.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Services\\IServices\\IUsuarioServices.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\IServices\\IUsuarioServices.cs",
+              "RelativeToolTip": "WebApi83\\Services\\IServices\\IUsuarioServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApi83\\WeatherForecast.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApi83\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "WebApi83\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Libro.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Libro.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Libro.cs",
+              "RelativeToolTip": "Domain\\Entities\\Libro.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAutorServices.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\IServices\\IAutorServices.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Services\\IServices\\IAutorServices.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Services\\IServices\\IAutorServices.cs",
+              "RelativeToolTip": "WebApi83\\Services\\IServices\\IAutorServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Controllers\\AutoresController.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "WebApi83\\Controllers\\AutoresController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Autor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Autor.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Autor.cs",
+              "RelativeToolTip": "Domain\\Entities\\Autor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApi83\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Response.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Response.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Response.cs",
+              "RelativeToolTip": "Domain\\Entities\\Response.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApi83\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApi83\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioResponse.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\UsuarioResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UsuarioResponse.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\UsuarioResponse.cs",
+              "RelativeToolTip": "Domain\\Entities\\UsuarioResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebApi83.csproj",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+              "RelativeDocumentMoniker": "WebApi83\\WebApi83.csproj",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+              "RelativeToolTip": "WebApi83\\WebApi83.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T23:56:52.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Rol.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Entities\\Rol.cs",
+              "RelativeToolTip": "Domain\\Entities\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:56:52.617Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
