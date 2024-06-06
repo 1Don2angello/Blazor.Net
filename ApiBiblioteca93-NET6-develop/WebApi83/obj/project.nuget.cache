@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mmUmcLFPYZOC5h3wFDsRFOEiuniFU3eNIXrOQzMw7a6+cLdtfQ18SAjQluSu1+9maLzwFrASu9o43WSqryE4Cg==",
+  "dgSpecHash": "QIOF1PJ0Tj4BROP7ETqgIvc0dqGyRkYelSD2Hxsq4kfEEo4T+vEYsv0LtW0PWv5q1IBNk9Jyq83rD5gDvtFOXw==",
   "success": true,
-  "projectFilePath": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+  "projectFilePath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dev\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

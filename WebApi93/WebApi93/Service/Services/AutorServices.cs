@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Dapper;
 using System.Data;
 using WebApi93.Service.IServices;
+
 namespace WebApi93.Service.Services
 {
     public class AutorServices :IAutorServices
@@ -21,17 +22,18 @@ namespace WebApi93.Service.Services
             {
                 List<Autor> response = new List<Autor>();
                 var result = await _context.Database.GetDbConnection().QueryAsync<Autor>("spGetAutores", new { }, commandType: CommandType.StoredProcedure);
+
                 response = result.ToList();
 
                 return new Response<List<Autor>> ( response );
             }catch (Exception ex)
             {
-                return new Response<List<Autor>>();
+                throw new Exception("Succedio un error :C " + ex.Message);
             }
         }
 
 
-        public async Task<Response<Autor>> CrearA(Autor i)
+        public async Task<Response<Autor>> Crear(Autor i)
         {
             try
             {
@@ -41,12 +43,14 @@ namespace WebApi93.Service.Services
                     commandType: System.Data.CommandType.StoredProcedure)
                 ).FirstOrDefault();
 
-                return new Response<Autor>(autor ?? new Autor());
+                return new Response<Autor>(autor);
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                throw new Exception("Succedio un error :C " + ex.Message);
             }
         }
+
+
     }
 }

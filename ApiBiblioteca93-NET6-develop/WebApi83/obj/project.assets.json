@@ -2282,11 +2282,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+      "projectUniqueName": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
       "projectName": "WebApi83",
-      "projectPath": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
+      "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\WebApi83\\WebApi83.csproj",
       "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-      "outputPath": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\WebApi83\\obj\\",
+      "outputPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\WebApi83\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2303,8 +2303,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\DOCUMENTOS\\ApiBiblioteca93-NET6-develop\\ApiBiblioteca93-NET6-develop\\Domain\\Domain.csproj"
+            "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\programas\\xampp\\htdocs\\Blazor.Net\\ApiBiblioteca93-NET6-develop\\Domain\\Domain.csproj"
             }
           }
         }

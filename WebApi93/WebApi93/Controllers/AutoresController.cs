@@ -21,9 +21,10 @@ namespace WebApi93.Controllers
             return Ok( await _autorServices.GetAutores() );
         }
 
+        [HttpPost]
         public async Task<IActionResult> CrearAutor([FromBody]Autor autor )
         {
-            return  Ok(await _autorServices.CrearA(autor ));
+            return  Ok(await _autorServices.Crear(autor ));
         }
 
     }

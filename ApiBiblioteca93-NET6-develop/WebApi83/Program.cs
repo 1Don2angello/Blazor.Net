@@ -4,6 +4,18 @@ using WebApi83.Services.IServices;
 using WebApi83.Services.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+//configuracion de cors
+builder.Services.AddCors(options =>
+{
+    //builder => builder.With.Origins ("localhost:5173")
+    options.AddPolicy("MyAllowSpecificOrigins",
+        builder => builder.WithOrigins("http://localhost:4200")
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials()//ajusta esto segun tus necesidades 
+        );
+}
+    );
 
 // Add services to the container.
 
