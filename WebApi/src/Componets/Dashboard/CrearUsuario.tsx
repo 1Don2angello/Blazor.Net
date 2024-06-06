@@ -20,7 +20,7 @@ export default function DataGridDemo() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://localhost:7141/Usuarios');
+            const response = await axios.get('https://localhost:7140/Usuarios');
             const data = response.data.result;
             setRows(data);
             setLoading(false); 
@@ -39,7 +39,7 @@ export default function DataGridDemo() {
         };
 
         try {
-            await axios.post('https://localhost:7141/Usuarios', newUser);
+            await axios.post('https://localhost:7140/Usuarios', newUser);
             fetchData(); // Refresh the data after adding a new user
         } catch (error) {
             console.error('Error creating user:', error);
@@ -73,7 +73,7 @@ export default function DataGridDemo() {
     );
 }
 
-export interface Usuario {
+export interface UsuarioLocal {
     pkUsuario: number;
     nombre: string;
     user: string;

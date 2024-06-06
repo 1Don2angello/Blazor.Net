@@ -64,7 +64,7 @@ export default function DataGridDemo() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://localhost:7141/Usuarios/Obtener"
+        "https://localhost:7140/Usuarios/Obtener"
       );
       console.log("Response data:", response.data); // Verifica la estructura de la respuesta
       setRows(response.data.result); // Ajuste aquí
@@ -78,7 +78,7 @@ export default function DataGridDemo() {
   const handleDelete = async () => {
     if (autorToDelete !== null) {
       try {
-        await axios.delete(`https://localhost:7141/Eliminar/${autorToDelete}`);
+        await axios.delete(`https://localhost:7140/Eliminar/${autorToDelete}`);
         setRows((prevRows) =>
           prevRows.filter((row) => row.pkUsuario !== autorToDelete)
         );
@@ -122,7 +122,7 @@ export default function DataGridDemo() {
   const handleSave = async () => {
     try {
       await axios.put(
-        `https://localhost:7141/Usuarios/${currentAutor.pkUsuario}`,
+        `https://localhost:7140/Usuarios/${currentAutor.pkUsuario}`,
         currentAutor
       );
       setRows((prevRows) =>
@@ -140,7 +140,7 @@ export default function DataGridDemo() {
   const handleAdd = async () => {
     try {
       const response = await axios.post(
-        "https://localhost:7141/Usuarios",
+        "https://localhost:7140/Usuarios",
         newAutor
       );
       setRows((prevRows) => [...prevRows, response.data]);

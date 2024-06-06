@@ -1,7 +1,7 @@
 import { Box, Button, Typography, Paper, Dialog, DialogActions, DialogContent, DialogTitle, TextField } from "@mui/material";
 import { useEffect, useState } from "react";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
-import Autores from "../Interface/IAutor";
+import { Autores } from "../Interface/IAutor";
 import axios from "axios";
 
 export default function DataGridDemo() {
@@ -34,7 +34,7 @@ export default function DataGridDemo() {
 
     const fetchData = async () => {
         try {
-            const response = await axios.get('https://localhost:7141/api/Autor');
+            const response = await axios.get('https://localhost:7140/api/Autor');
             const data = response.data.result; // Accessing the 'result' field from the response
             setRows(data);
             setLoading(false);
@@ -47,7 +47,7 @@ export default function DataGridDemo() {
     const handleDelete = async () => {
         if (autorToDelete !== null) {
             try {
-                await axios.delete(`https://localhost:7141/Eliminar/${autorToDelete}`);
+                await axios.delete(`https://localhost:7140/Eliminar/${autorToDelete}`);
                 setRows((prevRows) => prevRows.filter((row) => row.pkAutor !== autorToDelete));
                 setAutorToDelete(null);
                 handleCloseConfirm();
@@ -57,15 +57,16 @@ export default function DataGridDemo() {
         }
     };
 
-    const handleEdit = (autor) => {
+    const handleEdit = (autor: Autores) => {
         setCurrentAutor(autor);
         setOpen(true);
     };
-
-    const handleOpenConfirm = (pkAutor) => {
+    
+    const handleOpenConfirm = (pkAutor: number) => {
         setAutorToDelete(pkAutor);
         setOpenConfirm(true);
     };
+    
 
     const handleCloseConfirm = () => {
         setOpenConfirm(false);
@@ -88,7 +89,7 @@ export default function DataGridDemo() {
 
     const handleSave = async () => {
         try {
-            await axios.put(`https://localhost:7141/api/Autor/${currentAutor.pkAutor}`, currentAutor);
+            await axios.put(`https://localhost:7140/api/Autor/${currentAutor.pkAutor}`, currentAutor);
             setRows((prevRows) => prevRows.map((row) => (row.pkAutor === currentAutor.pkAutor ? currentAutor : row)));
             handleClose();
         } catch (error) {
@@ -98,7 +99,7 @@ export default function DataGridDemo() {
 
     const handleAdd = async () => {
         try {
-            const response = await axios.post('https://localhost:7141/api/Autor', newAutor);
+            const response = await axios.post('https://localhost:7140/api/Autor', newAutor);
             setRows((prevRows) => [...prevRows, response.data]);
             handleCloseAdd();
         } catch (error) {
